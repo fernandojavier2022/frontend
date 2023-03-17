@@ -1,0 +1,40 @@
+/* p.destacado {
+    color: orange;
+}
+
+p .destacado{
+    color: chartreuse;
+} */
+
+/* p, .destacado{
+    color: darkslateblue;
+} */
+
+#login{
+    background-color:azure;
+}
+#clientes{
+    background-color:rgb(245, 175, 245);
+}
+#proveedores{
+    background-color:rgb(163, 235, 141);
+}
+
+#footer{
+    background-color:rgb(236, 212, 183);
+}
+#navbar{
+    background-color:rgb(245, 227, 203);
+}
+img{
+    float: left;
+    width: 8em;
+    height: 12em;
+    margin-right: 1em;
+}
+#imgemail{
+    float: left;
+    width: 8em;
+    height: 8em;
+    margin-left: 8em;
+}

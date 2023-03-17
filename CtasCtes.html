@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+  <html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+    <title>Cuentas</title>
+  </head>
+  <body>
+    <div class="container-fluid">
+      <p>Detalle de Movimientos</p>
+      <form action="">
+        <div class="form-group col-md-6 mt-2">
+          <label for="inputState">Clientes</label>
+          <select id="inputState" class="form-control">
+            <option selected>Choose...</option>
+            <option>Cliente N</option>
+            <option>Cliente Y</option>
+            <option>Cliente X</option>
+            <option>Cliente S</option>
+            <option>Cliente M</option>
+          </select>
+        </div>
+        <button type="submit" class="btn btn-primary mt-2">Consultar</button>
+        <a href="index.html" class="btn btn-primary mt-2">Inicio</a>
+
+      </form>
+      
+      <br>
+      <table class="table">
+        <thead>
+          <tr>
+            <th scope="col">#</th>
+            <th scope="col">Fecha</th>
+            <th scope="col">Debe</th>
+            <th scope="col">Haber</th>
+            <th scope="col">Saldo</th>
+            <th scope="col">comprobantes</th>
+            <th scope="col">Auditado</th>
+
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">1</th>
+            <td>Cliente M</td>
+            <td>1500</td>
+            <td>850</td>
+            <td>650</td>
+            <td>RCA05-251</td>
+            <td>Si</td>
+          </tr>
+          <tr>
+            <th scope="row">2</th>
+            <td>Clien Y</td>
+            <td>1000</td>
+            <td>200</td>
+            <td>0</td>
+            <td>RCA05-150</td>
+            <td>Si</td>
+          </tr>
+          <tr>
+            <th scope="row">3</th>
+            <td>Cliente H</td>
+            <td>0</td>
+            <td>200</td>
+            <td>-200</td>
+            <td>RCA05-260</td>
+            <td>No</td>
+          </tr>
+        </tbody>
+      </table>
+
+    </div>
+  
+  </body>
+
+  </html>
